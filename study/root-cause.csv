@@ -1,0 +1,122 @@
+Library,Version,PyVer,Direct/Indirect,Dependency,Root Cause,Resource,Stage,note
+bcolz,1.2.1,3.9,Direct,,UnsupportedFeatures,gz,install,C
+bottleneck,1.3.0,3.9,Indirect,numpy==1.16.0,UnsupportedFeatures,gz,install,C
+cachier,1.5.0,2.7,Indirect,portalocak,NoAvlResource,whl,install,
+chartify,3.0.3,3.5,Indirect,pyyaml>=5.3.1,NoAvlResource,whl,install,
+chatterbot,1.1.0,3.9,Indirect,"spacy<2.2,>=2.1",UnsupportedFeatures,gz,install,C
+cx-oracle,8.2.1,3.5,Direct,,LocalCompCheck,gz,install,
+datasets,1.12.1,2.7,Indirect,multiprocess,LocalCompCheck,gz,install,
+django-angular,2.3,2.7,Indirect,django>=2.1,NoAvlResource,gz,install,
+goose-extractor,1.0.25,3.9,Indirect,beautifulsoup,UnsupportedFeatures,gz,install,SyntaxError
+h5py,3.5.0,310,Indirect,numpy,UnsupportedFeatures,gz,install,C
+kinto,14.4.1,2.7,Indirect,python-rapidjson,LocalCompCheck,gz,install,
+neomodel,4.0.1,2.7,Direct,,UnsupportedFeatures,gz,install,SyntaxError
+oauth2client,4.1.3,2.7,Indirect,rsa>=3.1.4【4.7.1】,LocalCompCheck,whl,install,
+opbeat,3.6.1,310,Direct,,UnsupportedFeatures,gz,install,SyntaxError
+responder,2.0.5,3.9,Indirect,httptools,UnsupportedFeatures,gz,install,C
+salt,3003.3,2.7,Direct,,UnsupportedFeatures,gz,install,SyntaxError
+sleekxmp,1.3.3,310,Direct,,UnsupportedFeatures,gz,install,ImportError
+zipline,1.4.1,3.9,Indirect,"pandas<=0.22,>=0.18.1",UnsupportedFeatures,gz,install,C
+pinax-webanalytics,5.0.0,2.7,Indirect,django>=2.2,NoAvlResource,whl,install,
+pinax-notifications,6.0.0,2.7,Indirect,django>=2.2,NoAvlResource,whl,install,
+pinax-eventlog,5.1.0,2.7,Indirect,django>=2.2,NoAvlResource,whl,install,
+pinax-blog,8.0.1,2.7,Indirect,django>=2.2,NoAvlResource,whl,install,
+pandas-mpmkp,1.0.9,3.9,Indirect,numpy==1.14.5,UnsupportedFeatures,gz,install,C
+arviz,0.11.2,3.5,Indirect,xarray>=0.16.1,NoAvlResource,whl,install,
+opencv-contrib-python,4.5.2.52,310,Indirect,numpy,UnsupportedFeatures,gz,install,C
+umap-learn,0.5.0,3.5,Indirect,numba>=0.49,NoAvlResource,whl,install,
+myqr,2.3.1,2.7,Indirect,imageio,LocalCompCheck,gz,install,
+mxnet-cu75mkl,1.2.1.post1,3.9,Indirect,numpy,UnsupportedFeatures,whl,install,C
+mmcv,1.3.0,2.7,Direct,,UnsupportedFeatures,gz,install,SyntaxError
+mlxtend,0.19.0,2.7,Indirect,matplotlib>=3.0.0 (from mlxtend==0.19.0),NoAvlResource,whl,install,
+maya,0.6.1,2.7,Indirect,regex_3,UnsupportedFeatures,whl,install,C
+marisa-trie,0.7.5,310,Direct,,UnsupportedFeatures,gz,install,C
+manimlib,0.2.0,2.7,Direct,,UnsupportedFeatures,gz,install,TypeError
+luma.led_matrix,1.5.0,3.5,Indirect,luma.core,LocalCompCheck,whl,install,
+litecli,1.6.0,3.5,Indirect,"prompt-toolkit<4.0.0,>=3.0.3 (from litecli==1.6.0)",NoAvlResource,whl,install,
+superset,0.30.0,3.5,Direct,,LocalCompCheck,gz,install,
+lesspass,10.2.0,2.7,Direct,,UnsupportedFeatures,gz,install,SyntaxError
+twarc,2.8.0,3.5,Indirect,humanize>=3.9,NoAvlResource,whl,install,
+sanic-cors,1.0.0,3.5,Indirect,"sanic-plugin-toolkit<2,>=1.0.0",NoAvlResource,whl,install,
+keras-retinanet,1.0.0,2.7,Direct,,UnsupportedFeatures,gz,install,TypeError
+invenio-files-rest,1.3.0,2.7,Indirect,"celery<5.3,>=5.1.0 (from invenio-celery>=1.2.3->invenio-files-rest==1.3.0)",NoAvlResource,whl,install,
+invenio-accounts,1.4.2,2.7,Indirect,"celery<5.3,>=5.1.0 (from invenio-celery>=1.2.3->invenio-files-rest==1.3.1)",NoAvlResource,whl,install,
+rise,5.7.1,2.7,Indirect,notebook>=6.0,NoAvlResource,whl,install,
+indian-namematch,1.3.0,2.7,Indirect,regex_3,UnsupportedFeatures,gz,install,C
+imgaug,0.4.0,2.7,Indirect,imageio,LocalCompCheck,whl,install,
+pywb,2.6.0,2.7,Indirect,portalocker,LocalCompCheck,whl,install,
+icontract,2.5.0,2.7,Direct,,UnsupportedFeatures,gz,install,TypeError
+ibm-watson,5.3.0,2.7,Direct,,UnsupportedFeatures,gz,install,TypeError
+hydra-core,1.1.1,2.7,Direct,,UnsupportedFeatures,gz,install,ImportError
+rest-social-auth,6.0.1,2.7,Indirect,"django<4.0, >=2.2",NoAvlResource,whl,install,
+grr-response-server,3.4.2.post4,2.7,Indirect, grr-response-client-builder==3.4.2post4 (from grr-response-server==3.4.2.post4),NoAvlResource,gz,install,
+grpc-google-pubsub-v1,0.11.1,2.7,Indirect,rsa,LocalCompCheck,gz,install,
+graph-nets,1.1.0,2.7,Indirect,dm-sonnet,UnsupportedFeatures,gz,install,ImportError
+google-apitools,0.5.31,2.7,Indirect,rsa,LocalCompCheck,whl,install,
+goatools,1.1.5,2.7,Direct,,UnsupportedFeatures,gz,install,SyntaxError
+futu-api,5.9.2108,2.7,Direct,,UnsupportedFeatures,gz,install,TypeError
+flask-themes2,1.0.0,2.7,Indirect,Flask>=2.0 (from flask-themes2==1.0.0),NoAvlResource,gz,install,
+flask-mongoengine,1.0.0,2.7,Direct,,UnsupportedFeatures,gz,install,TypeError
+eth-keys,0.3.3,2.7,Indirect,"eth-utils<2.0.0,>=1.3.0 (from eth-keys==0.3.3)",NoAvlResource,gz,install,
+edx-rest-api-client,5.4.0,3.5,Indirect,newrelic,LocalCompCheck,whl,install,
+droopescan,1.45.1,2.7,Indirect,pystache,UnsupportedFeatures,whl,install,SyntaxError
+dm-sonnet,2.0.0,2.7,Direct,,UnsupportedFeatures,gz,install,ImportError
+django-user-sessions,1.7.1,2.7,Indirect,Django>=2.2 (from django-user-sessions==1.7.1),NoAvlResource,whl,install,
+pytenable,1.3.0,2.7,Indirect,python-box>=4.0,NoAvlResource,gz,install,
+django-post-office,3.5.2,2.7,Indirect,django>=2.2 (from django-post-office==3.5.2),NoAvlResource,gz,install,
+django-organizations,2.0.0,2.7,Indirect,django>=2.2 ,NoAvlResource,whl,install,
+django-markup,1.5,2.7,Indirect,django>=2.2 (from django-markup==1.5),NoAvlResource,whl,install,
+django-debug-toolbar-request-history,0.1.3,2.7,Indirect,django-debug-toolbar>=2.0 (from django-debug-toolbar-request-history==0.1.3),NoAvlResource,whl,install,
+djangocms-link,3.0.0,2.7,Indirect,Django>=2.2 (from django-cms>=3.7->djangocms-link==3.0.0),NoAvlResource,gz,install,
+django-cms,3.9.0,2.7,Indirect,Django>=2.2 (from django-cms==3.9.0),NoAvlResource,whl,install,
+django-celery-email,3.0.0,2.7,Indirect,django>=2.2 ,NoAvlResource,whl,install,
+django-categories,1.8,2.7,Indirect,django-mptt==0.11.0 (from django-categories==1.8),NoAvlResource,whl,install,
+dimod,0.10.6,310,Indirect,numpy,UnsupportedFeatures,gz,install,C
+dedupe,2.0.6,2.7,Indirect,oldest_supported_numpy,NoAvlResource,gz,install,
+datashader,0.13.0,2.7,Indirect,numba>=0.51 (from datashader==0.13.0),NoAvlResource,whl,install,
+dataflows,0.3.2,2.7,Indirect,regex_3,UnsupportedFeatures,whl,install,C
+datadog-checks-dev,15.1.0,3.5,Indirect,PyYAML==5.4.1 (from datadog-checks-dev==15.1.0),NoAvlResource,whl,install,
+dask-ml,2021.10.17,3.6,Indirect,scikit-learn>=1.0.0,NoAvlResource,whl,install,
+dask-jobqueue,0.7.2,3.5,Indirect,dask>=2.19 (from dask-jobqueue==0.7.2),NoAvlResource,whl,install,
+pynwb,2.5.1,2.7,Indirect,"pandas<2, >=1.0.5",NoAvlResource,whl,install,
+credstash,1.17.1,2.7,Indirect,pytest>=5.4.1,NoAvlResource,gz,install,
+contractions,0.0.43,2.7,Indirect,anyascii (from textsearch->contractions==0.0.43),NoAvlResource,whl,install,
+chartify,3.0.3,3.5,Indirect,"bokeh<3.0.0,>=2.0.0 (from chartify==3.0.3)",NoAvlResource,whl,install,
+bypy,1.7.2,3.5,Indirect,multiprocess,LocalCompCheck,whl,install,
+pyldavis,3.3.0,2.7,Direct,pandas>=1.2.0,NoAvlResource,gz,install,
+asyncpgsa,0.27.0,2.7,Indirect,asyncpg<=0.22.0,LocalCompCheck,gz,install,
+awslimitchecker,12.0.0,2.7,Indirect,GitPython~=3.1 (from versionfinder>=0.1.1->awslimitchecker==12.0.0),NoAvlResource,whl,install,
+pmdarima,1.8.0,310,Indirect,numpy,UnsupportedFeatures,gz,install,C
+autokeras,1.0.12,2.7,Direct,,UnsupportedFeatures,gz,install,ImportError
+ansible-modules-hashivault,1.9.3,2.7,Indirect,httpx,NoAvlResource,gz,install,
+alpha-vantage,2.3.1,2.7,Indirect,aiohttp,LocalCompCheck,gz,install,
+allennlp,2.7.0,310,Indirect,"torchvision<0.11.0,>=0.8.1",NoAvlResource,whl,install,
+pyisbn,1.3.1,2.7,Direct,,UnsupportedFeatures,gz,install,SyntaxError
+adafruit-circuitpython-pca9685,3.3.2,2.7,Indirect,Adafruit-Blinka (from adafruit-circuitpython-pca9685==3.3.2),NoAvlResource,gz,install,
+adafruit-circuitpython-framebuf,1.4.3,2.7,Indirect,Adafruit-Blinka (from adafruit-circuitpython-framebuf==1.4.3),NoAvlResource,gz,install,
+adafruit-circuitpython-esp32sp,3.5.3,2.7,Indirect,Adafruit-Blinka (from adafruit-circuitpython-esp32spi==3.5.3),NoAvlResource,gz,install,
+xpinyin,0.7.4,2.7,Direct,,UnsupportedFeatures,gz,install,ImportError
+varcode,1.0.3,2.7,Indirect,biopython,LocalCompCheck,gz,install,
+pygtrie,2.4.1,2.7,Direct,,UnsupportedFeatures,gz,install,TypeError
+tsfresh,0.18.0,3.5,Indirect,dask[dataframe]>=2.9.0 (from tsfresh==0.18.0),NoAvlResource,whl,install,
+pygal,2.4.0,310,Direct,,UnsupportedFeatures,whl,runtime,ImportError
+patsy,0.5.1,310,Direct,,UnsupportedFeatures,whl,runtime,ImportError
+tabulate,0.8.7,310,Direct,,UnsupportedFeatures,whl,runtime,ImportError
+pyecharts,1.9.0,310,Direct,,UnsupportedFeatures,whl,runtime,ImportError
+kafka,1.3.5,38,Direct,,UnsupportedFeatures,whl,runtime,SyntaxError
+pyxel,1.4.3,310,Direct,,UnsupportedFeatures,whl,runtime,ImportError
+scrapinghub,2.3.1,310,Direct,,UnsupportedFeatures,whl,runtime,ImportError
+uiautomation,2.0.8,310,Direct,,UnsupportedFeatures,whl,runtime,ImportError
+apache-airflow-backport-providers-grpc,2021.3.17,310,Indirect,apache-airflow 1.10.15,UnsupportedFeatures,whl,runtime,ImportError
+apache-airflow-backport-providers-openfaas,2021.3.3,310,Indirect,apache-airflow 1.10.15,UnsupportedFeatures,whl,runtime,ImportError
+apache-airflow-backport-providers-redis,2021.3.17,310,Indirect,apache-airflow 1.10.15,UnsupportedFeatures,whl,runtime,"ImportError, 19 similar libraries are omitted"
+tinydb-smartcache,2.0.0,3.5,Indirect,tinydb 4.5.2,UnsupportedFeatures,whl,runtime,SyntaxError
+pypuppetdb,2.5.0,3.5,Direct,,UnsupportedFeatures,whl,runtime,SyntaxError
+pyisbn,1.3.1,3.5,Direct,,UnsupportedFeatures,whl,runtime,SyntaxError
+nlp,0.4.0,3.5,Direct,,UnsupportedFeatures,whl,runtime,SyntaxError
+pulumi,3.5.0,2.7,Direct,,UnsupportedFeatures,whl,runtime,SyntaxError
+injector,0.18.4,2.7,Direct,,UnsupportedFeatures,whl,runtime,SyntaxError
+einops,0.3.0,2.7,Direct,,UnsupportedFeatures,whl,runtime,SyntaxError
+parsy,1.3.0,2.7,Direct,,UnsupportedFeatures,whl,runtime,SyntaxError
+banal,1.0.6,2.7,Direct,,UnsupportedFeatures,whl,runtime,SyntaxError
+aiocache,0.11.1,2.7,Direct,,UnsupportedFeatures,whl,runtime,SyntaxError
