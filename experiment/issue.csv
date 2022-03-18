@@ -1,0 +1,52 @@
+﻿Library,Status,Issue
+sklearn-pandas,reported,https://github.com/scikit-learn-contrib/sklearn-pandas/issues/251
+zigpy,fixed,https://github.com/zigpy/zigpy/issues/906
+Inject,already confirmed,https://github.com/ivankorobkov/python-inject/issues/73
+dopamine_rl,reported,https://github.com/google/dopamine/issues/191
+fbprophet,fixed,https://github.com/facebook/prophet/issues/2119
+django-allauth,reported,https://github.com/pennersr/django-allauth/issues/3034
+lightgbm,fixed,https://github.com/microsoft/LightGBM/issues/5004
+django-model-utils,reported,https://github.com/jazzband/django-model-utils/issues/517
+uvicorn,already fixed,
+moto,fixed,https://github.com/spulec/moto/issues/4859
+flower,reported,https://github.com/mher/flower/issues/1187
+googletrans,already fixed,
+mkdocs-material,already fixed,
+opennmt-tf,already fixed,
+adafruit-circuitpython-busdevice,fixed,https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/81
+pytest-console-scripts,fixed,https://github.com/kvas-it/pytest-console-scripts/issues/51
+mimesis,already fixed,
+horizon,fixed,https://bugs.launchpad.net/horizon/+bug/1960887
+blosc,reported,https://github.com/Blosc/python-blosc/issues/268
+breathe,confirmed,https://github.com/michaeljones/breathe/issues/810
+buildbot,already fixed,
+jpype1,fixed,https://github.com/jpype-project/jpype/issues/1030
+typed_ast,already fixed,
+zappa,reported,https://github.com/zappa/Zappa/issues/1111
+biopython,already fixed,
+aiogram,fixed,https://github.com/aiogram/aiogram/issues/855
+markovify,fixed,https://github.com/jsvine/markovify/issues/169
+bezier,fixed,https://github.com/dhermes/bezier/issues/291
+bitrot,reported,https://github.com/ambv/bitrot/issues/45
+bitshares,reported,https://github.com/bitshares/python-bitshares/issues/307
+casbin,fixed,https://github.com/casbin/pycasbin/issues/246
+cloudtracker,reported,https://github.com/duo-labs/cloudtracker/issues/81
+dallinger,reported,https://github.com/Dallinger/Dallinger/issues/3881
+datascience,reported,https://github.com/data-8/datascience/issues/529
+deeppavlov,already confirmed,https://github.com/deepmipt/DeepPavlov/issues/1519
+django-chamber,reported,https://github.com/druids/django-chamber/issues/136
+djangocms-cascade,reported,https://github.com/jrief/djangocms-cascade/issues/411
+django-select2,reported,https://github.com/codingjoe/django-select2/issues/125
+django-stdimage,reported,https://github.com/codingjoe/django-stdimage/issues/281
+django-watchman,reported,https://github.com/mwarkentin/django-watchman/issues/186
+dj-places,fixed,https://github.com/oscarmcm/django-places/issues/37
+drf-haystack,fixed,https://github.com/rhblind/drf-haystack/issues/169
+fairseq,reported,https://github.com/pytorch/fairseq/issues/4245
+fcm-django,reported,https://github.com/xtrinch/fcm-django/issues/200
+fklearn,fixed,https://github.com/nubank/fklearn/issues/189
+flask-pyoidc,already fixed,
+flopy,already fixed,
+easyquotation,reported,https://github.com/shidenggui/easyquotation/issues/119
+dagster,reported,https://github.com/dagster-io/dagster/issues/6987
+dagster-graphql,reported,https://github.com/dagster-io/dagster/issues/6987
+djangoajax,already confirmed,https://github.com/yceruto/django-ajax/issues/49
